@@ -22,8 +22,8 @@ private:
     int column;
     char token = 'x';
     //char token = '0';
-    std::string player1 = "";
-    std::string player2 = "";
+    //std::string player1 = "";
+    //std::string player2 = "";
     bool tie = false;
    
 };
