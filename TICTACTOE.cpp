@@ -7,14 +7,10 @@
 
 using namespace std; 
 
-
 char token = 'x'; 
 string player1="";
 string player2="";
 bool tie = false; 
-
-
-
 
 int main()
 {
