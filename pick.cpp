@@ -42,13 +42,13 @@ void pick::functionTwo() {
 
     if (token == 'x')
     {
-        cout << player1 << " please enter a #: ";
+        cout << " Player 1, please enter a #: ";
         cin >> number;
     }
 
     if (token == '0')
     {
-        cout << player2 << " please enter a #: ";
+        cout << " Player 2, please enter a #: ";
         cin >> number;
     }
 
