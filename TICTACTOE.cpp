@@ -12,7 +12,7 @@ char token = 'x';
 string player1="";
 string player2="";
 bool tie = false; 
-char answer = 'y'; 
+
 
 
 
@@ -21,7 +21,7 @@ int main()
 
     pick picking; 
 
-    while (answer == 'y'|| 'y') {
+   
         cout << "   LET'S PLAY TIC-TAC-TOE\n\n";
         cout << "Introduce yourself, player 1: ";
         cin >> player1;
@@ -54,8 +54,7 @@ int main()
         else {
             cout << " DRAW!" << endl;
         }
-        cout << "\nIf you want to try again, press Y/y ! "; 
-       cin >> answer; 
+      
        cout << "\n"; 
     }
 
